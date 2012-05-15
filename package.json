@@ -1,0 +1,11 @@
+{
+  "name": "tic-tac-toe",
+  "description": "Tic-Tac-Toe Game",
+  "version": "0.0.0",
+  "author":"Gregory Moeck",
+  "main": "main", "modulr": {
+    "paths": ["./src"]
+  },
+  "dependencies": {
+  }
+}

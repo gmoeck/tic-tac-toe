@@ -1,0 +1,13 @@
+{
+  "name": "integration_tests",
+  "description": "Integration tests",
+  "version": "0.0.0",
+  "author":"Gregory Moeck",
+  "main": "tests",
+  "modulr": {
+    "paths": ["spec/integration", "./src"]
+  },
+  "dependencies": {
+  }
+}
+

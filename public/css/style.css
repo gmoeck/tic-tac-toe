@@ -1,0 +1,24 @@
+#board {
+  height: 276px;
+  width: 276px;
+}
+#board .cell {
+  width: 84px;
+  height: 84px;
+  border-bottom: solid 10px black;
+  border-right: solid 10px black;
+  float: left;
+  text-align: center;
+  cursor: pointer;
+  font-size: 92px;
+}
+
+#board .row .cell.last {
+  border-right: none;
+}
+
+#board .row.last .cell {
+  border-bottom: 0;
+}
+
+
